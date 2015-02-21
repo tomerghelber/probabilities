@@ -14,12 +14,14 @@
 # serve to show the default.
 
 import sys
-import os
+from os import path
 
 # If extensions (or modules to document with autodoc) are in another directory,
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
-#sys.path.insert(0, os.path.abspath('.'))
+__file_dir__ = path.dirname(__file__)
+sys.path.insert(0, path.abspath(path.join(__file_dir__, '..', '..', 'probability')))
+
 
 # -- General configuration ------------------------------------------------
 
