@@ -1,0 +1,5 @@
+from tests.base.test_probability_distribution import test_init_probability_distribution
+
+
+class ProbabilityDistributionTest(test_init_probability_distribution.InitProbabilityDistributionTest):
+    pass
