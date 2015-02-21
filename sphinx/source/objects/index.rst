@@ -7,6 +7,7 @@ Contents:
    :maxdepth: 2
 
    exceptions/index
+   discrete/index
 
 Guide lines
 -----------
@@ -22,3 +23,11 @@ Some basic rules:
 **Q:** Do you have any global files?
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 **A:** No. This project doesn't seem to need one right now.
+
+Inheritances
+------------
+All object inheritance from :py:class:`base.probability.Probability` or :py:class:`base.probability_distribution.ProbabilityDistribution`.
+Probabilities are separated to two - discrete probability and -TODO: completed the anther one-.
+For them we made other base classes:
+ - :class:`discrete_probability.base.probability.DiscreteProbability` and :class:`discrete_probability.base.probability_distribution.DiscreteProbabilityDistribution`.
+ - TODO: completed the anther one-
