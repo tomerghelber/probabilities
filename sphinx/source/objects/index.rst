@@ -26,8 +26,20 @@ Some basic rules:
 
 Inheritances
 ------------
-All object inheritance from :py:class:`base.probability.Probability` or :py:class:`base.probability_distribution.ProbabilityDistribution`.
+All object inheritance the bases class.
+
+Base classes
+^^^^^^^^^^^^
+.. automodule:: base.probability
+.. autoclass:: Probability
+   :members:
+
+.. automodule:: base.probability_distribution
+.. autoclass:: ProbabilityDistribution
+   :members:
+
 Probabilities are separated to two - discrete probability and -TODO: completed the anther one-.
 For them we made other base classes:
  - :class:`discrete_probability.base.probability.DiscreteProbability` and :class:`discrete_probability.base.probability_distribution.DiscreteProbabilityDistribution`.
  - TODO: completed the anther one-
+
