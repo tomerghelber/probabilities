@@ -13,9 +13,25 @@ class UniformDiscreteProbabilityDistribution(probability_distribution.DiscretePr
     def _probability_class(self):
         return probability.UniformDiscreteProbability
 
+    @property
+    def expected_value(self):
+        return 1 / (self.b - self.a)
+
+    @property
+    def median(self):
+        return (self.b + self.a) / 2.0
+
+    @property
+    def mode(self):
+        return self.expected_value
+
+    @property
+    def variance(self):
+        return 0
+
     def _get(self, value):
         if self.a < value < self.b:
-            return self._probability_class(1 / (self.b - self.a))
+            return self._probability_class(self.expected_value)
         return self._probability_class(0)
 
     def __repr__(self):

@@ -1,4 +1,5 @@
 import abc
+import cmath
 
 
 class ProbabilityDistribution(abc.ABC):
@@ -18,3 +19,35 @@ class ProbabilityDistribution(abc.ABC):
     def __init__(self):
         self.full = self._probability_class(1)
         self.zero = -self.full
+
+    @abc.abstractproperty
+    def expected_value(self):
+        """
+        The expected value of the distribution.
+
+        :return: The expected value of the distribution.
+        :rtype: float
+        """
+        raise NotImplementedError()
+
+    @abc.abstractproperty
+    def median(self):
+        """
+        The Median of the distribution.
+
+        :return: Median of the distribution.
+        :rtype: float
+        """
+        raise NotImplementedError()
+
+    @abc.abstractproperty
+    def variance(self):
+        raise NotImplementedError()
+
+    @abc.abstractproperty
+    def mode(self):
+        raise NotImplementedError()
+
+    @property
+    def standard_deviation(self):
+        return cmath.sqrt(self.variance)
