@@ -11,9 +11,6 @@ class UniformDiscreteProbabilityDistributionTest(DiscreteProbabilityDistribution
 
     @property
     def tested_object(self):
-        print(1)
         a = self._probability_distribution_class
-        print(a)
-        b = a()
-        print(b)
+        b = self._probability_distribution_class(1, 2)
         return b

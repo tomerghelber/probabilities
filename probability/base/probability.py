@@ -20,7 +20,7 @@ class Probability(abc.ABC):
         """
         probability = float(probability)
         if probability < 0 or probability > 1:
-            raise exceptions.ProbabilityValueError()
+            raise exceptions.ProbabilityInitValueError()
 
         b = hashlib.md5()
         b.update(os.urandom(24))

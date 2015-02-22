@@ -1,6 +1,8 @@
 import abc
 
 from probability.base import probability_distribution
+from probability.base import probability
+
 from tests import test_sub_class
 
 
@@ -20,3 +22,6 @@ class BaseProbabilityDistributionTest(test_sub_class.BaseSubClassTest):
     @property
     def _sub_class(self):
         return self._probability_distribution_class
+
+    def test_property_class(self):
+        self.assertIsSubClass(self.tested_object._probability_class, probability.Probability)
