@@ -33,7 +33,7 @@ class ProbabilityDistribution(abc.ABC):
     @abc.abstractproperty
     def median(self):
         """
-        The Median of the distribution.
+        The median of the distribution.
 
         :return: Median of the distribution.
         :rtype: float
@@ -42,12 +42,30 @@ class ProbabilityDistribution(abc.ABC):
 
     @abc.abstractproperty
     def variance(self):
+        """
+        The variance of the distribution.
+
+        :return: Variance of the distribution.
+        :rtype: float
+        """
         raise NotImplementedError()
 
     @abc.abstractproperty
     def mode(self):
+        """
+        The mode of the distribution.
+
+        :return: Mode of the distribution.
+        :rtype: float
+        """
         raise NotImplementedError()
 
     @property
     def standard_deviation(self):
+        """
+        The standard deviation of the distribution.
+
+        :return: Standard deviation of the distribution.
+        :rtype: float
+        """
         return cmath.sqrt(self.variance)
