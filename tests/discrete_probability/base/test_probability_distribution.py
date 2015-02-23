@@ -1,5 +1,5 @@
-from probability.discrete_probability.base import probability_distribution
-from probability.exceptions import GetDiscreteProbabilityValueError
+from probabilities.discrete_probability.base import probability_distribution
+from probabilities.exceptions import GetDiscreteProbabilityValueError
 
 from tests.base.test_probability_distribution import ProbabilityDistributionTest
 

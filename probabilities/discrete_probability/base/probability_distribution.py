@@ -1,18 +1,18 @@
 import abc
 
-from probability.base import probability_distribution
-from probability import exceptions
+from probabilities.base import probability_distribution
+from probabilities import exceptions
 
 
 class DiscreteProbabilityDistribution(probability_distribution.ProbabilityDistribution):
-    """Discrete probability distribution"""
+    """Discrete probabilities distribution"""
 
     def get(self, value):
         """
-        Returning a probability object.
-        :param value: The value of the probability
+        Returning a probabilities object.
+        :param value: The value of the probabilities
         :type value: float
-        :return: A probability
+        :return: A probabilities
         :rtype: probability.discrete_probability.base.probability.DiscreteProbability
         :raise exceptions.ProbabilityValueError
         """

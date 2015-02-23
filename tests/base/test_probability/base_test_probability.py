@@ -1,12 +1,12 @@
 import abc
 
-from probability.base import probability
+from probabilities.base import probability
 from tests import test_sub_class
 
 
 class BaseProbabilityTest(test_sub_class.BaseSubClassTest):
     """
-    Base test for probability.
+    Base test for probabilities.
     """
     TESTED_PROBABILITY_VALUE = 1 / 3
     BIGGER_PROBABILITY_VALUE = TESTED_PROBABILITY_VALUE * 1.5

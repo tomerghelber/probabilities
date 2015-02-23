@@ -3,7 +3,7 @@ from tests.base.test_probability.base_test_probability import BaseProbabilityTes
 
 class BooleansProbabilityTest(BaseProbabilityTest):
     """
-    Base test for probability booleans.
+    Base test for probabilities booleans.
     """
 
     def test__eq__other_probability(self):

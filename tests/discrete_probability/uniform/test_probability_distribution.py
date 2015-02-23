@@ -1,6 +1,6 @@
 from unittest import TestCase
 
-from probability.discrete_probability.uniform import probability_distribution
+from probabilities.discrete_probability.uniform import probability_distribution
 from tests.discrete_probability.base.test_probability_distribution import DiscreteProbabilityDistributionTest
 
 

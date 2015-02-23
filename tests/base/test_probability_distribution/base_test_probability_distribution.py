@@ -1,7 +1,7 @@
 import abc
 
-from probability.base import probability_distribution
-from probability.base import probability
+from probabilities.base import probability_distribution
+from probabilities.base import probability
 
 from tests import test_sub_class
 

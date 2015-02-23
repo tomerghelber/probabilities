@@ -1,5 +1,5 @@
-from probability.discrete_probability.uniform import probability
-from probability.discrete_probability.base import probability_distribution
+from probabilities.discrete_probability.uniform import probability
+from probabilities.discrete_probability.base import probability_distribution
 
 
 class UniformDiscreteProbabilityDistribution(probability_distribution.DiscreteProbabilityDistribution):

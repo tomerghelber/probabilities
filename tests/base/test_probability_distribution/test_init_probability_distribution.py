@@ -1,4 +1,4 @@
-from probability.base.probability import Probability
+from probabilities.base.probability import Probability
 from tests.base.test_probability_distribution import base_test_probability_distribution
 
 

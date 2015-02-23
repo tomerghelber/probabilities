@@ -1,10 +1,10 @@
-from probability import exceptions
+from probabilities import exceptions
 from tests.base.test_probability.base_test_probability import BaseProbabilityTest
 
 
 class InitProbabilityTest(BaseProbabilityTest):
     """
-    Base test for probability init.
+    Base test for probabilities init.
     """
 
     def test__init__lower_than_0(self):

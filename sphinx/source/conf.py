@@ -20,7 +20,7 @@ from os import path
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
 __file_dir__ = path.dirname(__file__)
-sys.path.insert(0, path.abspath(path.join(__file_dir__, '..', '..', 'probability')))
+sys.path.insert(0, path.abspath(path.join(__file_dir__, '..', '..', 'probabilities')))
 
 
 # -- General configuration ------------------------------------------------
@@ -237,7 +237,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    ('index', 'probability', 'Probability Documentation',
+    ('index', 'probabilities', 'Probability Documentation',
      ['User'], 1)
 ]
 

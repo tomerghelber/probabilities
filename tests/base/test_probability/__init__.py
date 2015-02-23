@@ -6,6 +6,6 @@ from tests.base.test_probability.test_booleans_probability import BooleansProbab
 
 class ProbabilityTest(InitProbabilityTest, HashProbabilityTest, ArithmeticProbabilityTest, BooleansProbabilityTest):
     """
-    Base test for probability.
+    Base test for probabilities.
     """
     pass

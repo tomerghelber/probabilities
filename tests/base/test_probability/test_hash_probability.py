@@ -3,7 +3,7 @@ from tests.base.test_probability.base_test_probability import BaseProbabilityTes
 
 class HashProbabilityTest(BaseProbabilityTest):
     """
-    Base test for probability hash.
+    Base test for probabilities hash.
     """
 
     def test__hash__same_instance(self):

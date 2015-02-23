@@ -1,10 +1,10 @@
-from probability.base import probability
+from probabilities.base import probability
 from tests.base.test_probability.base_test_probability import BaseProbabilityTest
 
 
 class ArithmeticProbabilityTest(BaseProbabilityTest):
     """
-    Base test for probability arithmetic.
+    Base test for probabilities arithmetic.
     """
 
     def test__float__value(self):

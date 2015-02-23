@@ -2,7 +2,7 @@ import abc
 import hashlib
 import os
 
-from probability import exceptions
+from probabilities import exceptions
 
 
 class Probability(abc.ABC):
@@ -13,9 +13,9 @@ class Probability(abc.ABC):
 
     def __init__(self, probability: float or int, not_probability=None):
         """
-        :param probability: The probability value. Must be between 0 to 1
+        :param probability: The probabilities value. Must be between 0 to 1
         :type probability: float or int
-        :param not_probability: Using to create the opposite probability.
+        :param not_probability: Using to create the opposite probabilities.
         :type not_probability: Probability or None
         """
         probability = float(probability)
@@ -40,7 +40,7 @@ class Probability(abc.ABC):
     # """
     # Returns the intersection of self with other_probability.
     #
-    #     :param other_probability: The probability to intersect with.
+    #     :param other_probability: The probabilities to intersect with.
     #     :type other_probability: Probability
     #     :return: The intersections the probabilities.
     #     :rtype: Probability
@@ -52,7 +52,7 @@ class Probability(abc.ABC):
     #     """
     #     Returns the union of self with other_probability.
     #
-    #     :param other_probability: The probability to union with.
+    #     :param other_probability: The probabilities to union with.
     #     :type other_probability: Probability
     #     :return: The union of the probabilities.
     #     :rtype: Probability
@@ -66,9 +66,9 @@ class Probability(abc.ABC):
     #     """
     #     Adding an intersection of self with other_probability
     #
-    #     :param other_probability: The probability to intersect with.
+    #     :param other_probability: The probabilities to intersect with.
     #     :type other_probability: Probability
-    #     :param result_probability: The intersected probability.
+    #     :param result_probability: The intersected probabilities.
     #     :type result_probability: Probability
     #     """
     #     raise NotImplementedError()
@@ -78,9 +78,9 @@ class Probability(abc.ABC):
     #     """
     #     Adding an union of self with other_probability
     #
-    #     :param other_probability: The probability to union with.
+    #     :param other_probability: The probabilities to union with.
     #     :type other_probability: Probability
-    #     :param result_probability: The union probability.
+    #     :param result_probability: The union probabilities.
     #     :type result_probability: Probability
     #     """
     #     raise NotImplementedError()

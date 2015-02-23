@@ -1,10 +1,10 @@
-from probability.discrete_probability.base import probability
+from probabilities.discrete_probability.base import probability
 from tests.base.test_probability import ProbabilityTest
 
 
 class DiscreteProbabilityTest(ProbabilityTest):
     """
-    Discrete probability base test.
+    Discrete probabilities base test.
     """
 
     def setUp(self):

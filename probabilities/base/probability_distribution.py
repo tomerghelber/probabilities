@@ -4,15 +4,15 @@ import cmath
 
 class ProbabilityDistribution(abc.ABC):
     """
-    :var full: :class:`base.probability.Probability` The probability 1 of this distribution.
-    :var full: :class:`base.probability.Probability` The probability 0 of this distribution.
+    :var full: :class:`base.probabilities.Probability` The probabilities 1 of this distribution.
+    :var full: :class:`base.probabilities.Probability` The probabilities 0 of this distribution.
     """
     @abc.abstractproperty
     def _probability_class(self):
         """
 
-        :return: The distribution probability class
-        :rtype: :probability.base.probability.Probability:
+        :return: The distribution probabilities class
+        :rtype: :probabilities.base.probabilities.Probability:
         """
         raise NotImplementedError()
 
