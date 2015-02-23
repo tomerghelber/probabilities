@@ -2,5 +2,4 @@
 --index-url https://pypi.python.org/simple/
 
 # Those are like in setup.py
-mock=1.0.1
-
+mock==1.0.1
