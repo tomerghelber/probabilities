@@ -1,0 +1,7 @@
+# This is an implicit value, here for clarity
+--index-url https://pypi.python.org/simple/
+
+# Those are like in setup.py
+paramunittest=0.2
+mock=1.0.1
+
