@@ -3,3 +3,4 @@
 
 # Those are like in setup.py
 mock==1.0.1
+coveralls==0.5
