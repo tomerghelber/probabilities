@@ -1,6 +1,6 @@
 # Probabilities
 
-[![Build Status](https://travis-ci.org/tomerghelber/probabilities.svg)](https://travis-ci.org/tomerghelber/probabilities) [![Coverage Status](https://coveralls.io/repos/tomerghelber/probabilitiesprobabilities/badge.png)](https://coveralls.io/r/tomerghelber/probabilities)
+[![Build Status](https://travis-ci.org/tomerghelber/probabilities.svg)](https://travis-ci.org/tomerghelber/probabilities) [![Coverage Status](https://coveralls.io/repos/tomerghelber/probabilities/badge.png)](https://coveralls.io/r/tomerghelber/probabilities)
 
 Probabilities
 =============
